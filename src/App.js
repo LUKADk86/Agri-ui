@@ -1,24 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <h1>Le web au service de l'agriculture</h1>
+     <h2>Une plateforme dédiée aux services agricoles</h2>
+     <p>Bonjour! Bienvenue à la première plateforme d'accompagnement des agriculteurs dans leurs tâches quotidiens</p>
+     <h2>Accès gratuit à nos services</h2>
+     <p>Il vous suffit de s'inscrire pour faire facilement votre trésorie et d'une façon éfficace</p>
     </div>
   );
 }
